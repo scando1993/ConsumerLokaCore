@@ -54,7 +54,7 @@
                             <execution>
                                 <phase>package</phase>
                                 <configuration>
-                                    <mainClass>RCT.Console</mainClass>
+                                    <mainClass>EventHub.ConsoleSigfoxMessage</mainClass>
                                     <attachToBuild>true</attachToBuild>
                                     <!-- https://code.google.com/p/onejar-maven-plugin/issues/detail?id=8 -->
                                     <!--classifier>onejar</classifier-->
