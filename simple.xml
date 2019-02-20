@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<level_status_comm_F1 xmlns="http://www.R-C-T.biz" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <units>
+        <unit gsm_number="+593991255666">
+            <config>
+                <acquisition_frequency>1</acquisition_frequency>
+                <comm_mode>0</comm_mode>
+                <gsm_server>+593985045918</gsm_server>
+                <max_sms>5</max_sms>
+                <online_time>2</online_time>
+                <send_frequency>24</send_frequency>
+                <send_time>07:00</send_time>
+                <sid>100000</sid>
+                <sw_version>3.6</sw_version>
+                <wakeup_frequency>24</wakeup_frequency>
+            </config>
+            <status tstamp="2018-04-16T15:56:33.928">
+                <bat_level>3.2</bat_level>
+                <gsm_signal>90.0</gsm_signal>
+                <modem_bat></modem_bat>
+                <msg_number>0</msg_number>
+                <sensor_time></sensor_time>
+                <system_bat></system_bat>
+            </status>
+            <tank id="Loka">
+                <data>
+                    <alarm tstamp="2018-04-16T15:56:39.366">
+                        <gas_level>27.0</gas_level>
+                        <type>1</type>
+                    </alarm>
+                </data>
+                <param_def tstamp="2018-04-16T15:56:33.922">
+                    <alarm_level>20</alarm_level>
+                    <alarm_level>30</alarm_level>
+                    <bat_alarm>1</bat_alarm>
+                    <cyclic_message>0</cyclic_message>
+                    <error_alarm>0</error_alarm>
+                    <fulfill_alarm>1</fulfill_alarm>
+                    <leak_alarm>1</leak_alarm>
+                    <mobile_request>1</mobile_request>
+                    <overfill_level>88</overfill_level>
+                </param_def>
+            </tank>
+        </unit>
+    </units>
+</level_status_comm_F1>
