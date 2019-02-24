@@ -235,6 +235,12 @@ public class ConsoleSigfoxMessage implements TerminalEventHandler, ApiClient {
         System.out.println(message1.toString());
         boolean event1 = eventHub.sendMessage(message1);
 
+        try{
+            Thread.sleep(2000);
+        }catch (Exception e){
+
+        }
+
         EventHubMessage message2 = new EventHubMessage(this.device,
                 ++this.sequenceNumber,
                 this.family,
